@@ -4,13 +4,12 @@
     width:100%;
     max-width:800px;
     gap:15px;
-    margin: 100px auto;
+    margin: 50px auto;
 }
 
 .card{
-    aspect-ratio: 2.30/4;
+    aspect-ratio: 3/4;
     width: 100%;
-    background-color: #333;
     border-radius: 5px;
     position: relative;
     transition: all 400ms ease;
@@ -25,6 +24,7 @@
     background-position: center;
     border-radius: 5px;
     border: 2.5px solid rgb(30, 177, 54);
+    transition: all 400ms ease;
 }
 
 .front{
@@ -37,6 +37,11 @@
     backface-visibility: hidden;
 }
 
-.card:hover{
+.reveal_Card{
     transform: rotateY(180deg);
+}
+
+.disabled_Card{
+    filter: saturate(0);
+    opacity: 0.5;
 }
