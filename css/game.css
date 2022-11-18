@@ -31,6 +31,7 @@ header{
     max-width: 800px;
     gap: 10px;
     margin: 0 auto;
+    transform: rotateY(0);
 }
 
 .card{
