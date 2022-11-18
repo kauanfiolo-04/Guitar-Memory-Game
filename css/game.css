@@ -1,10 +1,36 @@
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url('../imgs/back.jpg');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px 20px 50px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    justify-content: space-between;
+    width: 45%;
+    max-width: 800px;
+    padding: 10px;
+    margin: 0 0 16px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
 .grid{
     display:grid;
     grid-template-columns: repeat(5, 1fr);
-    width:100%;
-    max-width:800px;
-    gap:15px;
-    margin: 50px auto;
+    width: 45%;
+    height: 35%;
+    max-width: 800px;
+    gap: 10px;
+    margin: 0 auto;
 }
 
 .card{
@@ -28,7 +54,6 @@
 }
 
 .front{
-    
     transform: rotateY(180deg);
 }
 
@@ -43,5 +68,5 @@
 
 .disabled_Card{
     filter: saturate(0);
-    opacity: 0.5;
+    opacity: 0.8;
 }
