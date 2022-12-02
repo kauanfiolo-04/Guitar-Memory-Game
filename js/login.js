@@ -19,4 +19,5 @@ const handleSubmit=(event)=>{
 }
 
 input.addEventListener('input',validateInput)
+
 form.addEventListener('submit',handleSubmit)
