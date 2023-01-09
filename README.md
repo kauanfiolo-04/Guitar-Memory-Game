@@ -1,2 +1,3 @@
 # Guitar-Memory-Game
-joga da memoria com fotos de guitarra
+Joga da memoria com fotos de guitarra
+https://kauanfiolo-04.github.io/Guitar-Memory-Game/
